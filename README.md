@@ -1,5 +1,5 @@
 ## Introduction ##
-- Graffiti system is usually used on Roleplay server, gangs tags a wall to represent their Gang, or to vandalize another gang's tag to cause gang-war.
+- Graffiti system is usually used on Roleplay servers, a gang member tags a wall to represent their Gang or to vandalize another gang's tag to cause gang-war.
 
 ## Credits ##
 - [Yvax](http://forum.sa-mp.com/member.php?u=98567): Original created of this include.
