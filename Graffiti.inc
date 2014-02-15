@@ -1,7 +1,7 @@
 /*
                                         Graffiti System by Tavi (2012)
-                                   	Edited by pds2k12 a.k.a Patrick_ (2014)
-                                    =======================================
+                           		Edited by pds2k12 a.k.a Patrick_ (2014)
+                                    	=======================================
 
                
 Functions
