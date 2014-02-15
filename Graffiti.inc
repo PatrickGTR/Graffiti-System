@@ -1,7 +1,7 @@
 /*
                                         Graffiti System by Tavi (2012)
-                           		Edited by pds2k12 a.k.a Patrick_ (2014)
-                                    	=======================================
+                                   	Edited by pds2k12 a.k.a Patrick_ (2014)
+                                    =======================================
 
                
 Functions
@@ -9,7 +9,7 @@ Functions
                
 native CreateGraffiti(playerid, Float:gX, Float:gy, Float:gZ, Float:gA, gText[], gFont[], gSize, gBold, gColor[]);
 native DeleteGraffiti(graffid);
-native IsPlayerAnyNearGraffiti(playerid, Float:Distance);
+native IsPlayerNearAnyGraffiti(playerid, Float:Distance);
 native IsPlayerNearGraffiti(graffitiid, playerid, Float:Distance);
  
 ================================================================================
@@ -59,7 +59,7 @@ stock DeleteGraffiti(graffid)
     Graff[t_gZ] = 0;
 }
 
-stock IsPlayerAnyNearGraffiti(playerid, Float:Distance)
+stock IsPlayerNearAnyGraffiti(playerid, Float:Distance)
 {
 	new 
 		i = -1;
