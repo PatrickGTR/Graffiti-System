@@ -3,11 +3,11 @@
 
 ## Credits ##
 - [Yvax](http://forum.sa-mp.com/member.php?u=98567): Original created of this include.
-- [Patrick_](http://forum.sa-mp.com/member.php?u=178953): Updated the include to [Hook Method 7](http://forum.sa-mp.com/showthread.php?t=441293) and added <b>IsPlayerAnyNearGraffiti</b> and <b>IsPlayerNearGraffiti</b> function.
+- [Patrick_](http://forum.sa-mp.com/member.php?u=178953): Updated the include to [Hook Method 7](http://forum.sa-mp.com/showthread.php?t=441293) and added <b>IsPlayerNearAnyGraffiti</b> and <b>IsPlayerNearGraffiti</b> function.
 
 
 ## Natives ##
 - native CreateGraffiti(playerid, Float:gX, Float:gy, Float:gZ, Float:gA, gText[], gFont[], gSize, gBold, gColor[]);
 - native DeleteGraffiti(graffid);
-- native IsPlayerAnyNearGraffiti(playerid, Float:Distance);
+- native IsPlayerNearAnyGraffiti(playerid, Float:Distance);
 - native IsPlayerNearGraffiti(graffitiid, playerid, Float:Distance);
