@@ -62,7 +62,7 @@ stock DeleteGraffiti(graffid)
 stock IsPlayerNearAnyGraffiti(playerid, Float:Distance)
 {
 	new 
-		i = -1;
+		i = 0;
 	while(++i != MAX_GRAFFS)
 	{
 		if( IsPlayerInRangeOfPoint( playerid, Distance, Graff[i][t_gX], Graff[i][t_gY], Graff[i][t_gZ] ) )
